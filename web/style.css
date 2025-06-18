@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 .form-container {
   background: white;
   padding: 2em;
@@ -16,16 +20,26 @@ body {
   width: 300px;
 }
 
+.checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 input, select, button {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
+  box-sizing: border-box;
   border-radius: 5px;
   border: 1px solid #ccc;
+
 }
 
 button {
   background-color: #007bff;
   color: white;
   border: none;
+  cursor: pointer;
+  margin-top: 20px;
 }
