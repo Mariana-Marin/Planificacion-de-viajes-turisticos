@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="PlanificadorViajes">
+    <output-path>out/artifacts/PlanificadorViajes_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PlanificadorViajes" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
