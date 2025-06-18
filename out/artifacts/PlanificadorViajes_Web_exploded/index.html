@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Viaje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>🌎 Mundo Aventurero</h1>
+    <form action="PaqueteServlet" method="post">
+      <input type="text" name="cliente" placeholder="Nombre del cliente" required>
+      <input type="number" name="personas" placeholder="Número de personas" required>
+      <select name="destino" required>
+        <option value="">Destino</option>
+        <option value="Cancún">Cancún</option>
+        <option value="Cartagena">Cartagena</option>
+        <option value="Madrid">Madrid</option>
+      </select>
+      <input type="number" name="precioPersona" placeholder="Precio por persona" required>
+      <label><input type="checkbox" name="seguro"> Incluir seguro</label>
+      <button type="submit">Calcular</button>
+    </form>
+  </div>
+</body>
+</html>
