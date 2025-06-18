@@ -17,7 +17,7 @@ public class PaqueteServlet extends HttpServlet {
         double descuento = (personas > 4) ? subtotal * 0.08 : 0;
         subtotal -= descuento;
         double impuesto = subtotal * 0.12;
-        double seguro = deseaSeguro ? personas * 25000 : 0;
+        double seguro = deseaSeguro ? personas * 25_000 : 0;
         double total = subtotal + impuesto + seguro;
 
         out.println("<html><body>");
