@@ -6,6 +6,8 @@ Bienvenid@ al repositorio oficial del proyecto **Planificador de Paquetes Turís
 
 ---
 
+![Pagina de entrada de información](Entradas.png)
+
 ## 📁 Estructura del Proyecto
 
 ```plaintext
