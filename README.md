@@ -33,7 +33,7 @@ PlanificadorViajes/
 
 📝 Puedes consultar el análisis y diagrama completo en el siguiente documento:
 
-🔗 **[Ver Diagrama Entradas-Procesos-Salidas (PDF)](https://drive.google.com/file/d/1xTU-9A6-DOCU-EJEMPLO/view)**  
+🔗 **[Ver Diagrama Entradas-Procesos-Salidas (PDF)]([https://drive.google.com/file/d/1xTU-9A6-DOCU-EJEMPLO/view](https://drive.google.com/file/d/1yxKgcrezv12R_EqUM5EpyhaTC7y0QePl/view?usp=sharing))**  
 
 ---
 
