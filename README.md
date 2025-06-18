@@ -15,12 +15,12 @@ PlanificadorViajes/
 ├── lib/                              # Librerías externas
 │   └── jakarta.servlet-api-6.0.0.jar # API de Servlets Jakarta (manual)
 ├── out/                              # Archivos compilados por IntelliJ
+├── src/
+│   └── PaqueteServlet.java   # Servlet con la lógica del sistema
 ├── web/
 │   ├── index.html                    # Formulario HTML del usuario
 │   ├── style.css                     # Estilos CSS del formulario
 │   └── WEB-INF/
-│       ├── src/
-│       │   └── PaqueteServlet.java   # Servlet con la lógica del sistema
 │       └── web.xml                   # Archivo de configuración del servlet
 ├── PlanificadorViajes.iml            # Archivo de configuración del proyecto
 ├── External Libraries/               # Dependencias agregadas al proyecto
