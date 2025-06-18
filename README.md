@@ -21,7 +21,7 @@ PlanificadorViajes/
 │   └── jakarta.servlet-api-6.0.0.jar # API de Servlets Jakarta (manual)
 ├── out/                              # Archivos compilados por IntelliJ
 ├── src/
-│   └── PaqueteServlet.java   # Servlet con la lógica del sistema
+│   └── PaqueteServlet.java           # Servlet con la lógica del sistema
 ├── web/
 │   ├── index.html                    # Formulario HTML del usuario
 │   ├── style.css                     # Estilos CSS del formulario
