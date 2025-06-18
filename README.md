@@ -41,7 +41,7 @@ PlanificadorViajes/
 
 📋 Consulta el documento que contiene la asistencia, fechas de reuniones y pantallazo de soporte:
 
-🔗 **[Ver Excel Asistencia y Pantallazo]([https://drive.google.com/file/d/1xTU-9A6-EXCEL-EJEMPLO/view](https://docs.google.com/spreadsheets/d/1_yZgNt_XuqPY_vEub9Re4O4xjRfNiEs2I3XuvFMkupw/edit?gid=862706107#gid=862706107))**  
+🔗 **[Ver Excel Asistencia y Pantallazo](https://docs.google.com/spreadsheets/d/1_yZgNt_XuqPY_vEub9Re4O4xjRfNiEs2I3XuvFMkupw/edit?usp=sharing)**  
 
 ---
 
