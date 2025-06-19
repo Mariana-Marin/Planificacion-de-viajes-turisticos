@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - Viajes por el Mundo</title>
+</head>
+<body>
+<h1>Explora el Mundo con Nosotros</h1>
+<div>
+  <h3>Destinos Populares</h3>
+  <ul>
+    <li>París, Francia</li>
+    <li>Tokio, Japón</li>
+    <li>Roma, Italia</li>
+    <li>Río de Janeiro, Brasil</li>
+    <li>El Cairo, Egipto</li>
+    <li>Sídney, Australia</li>
+    <li>Ciudad del Cabo, Sudáfrica</li>
+    <li>Toronto, Canadá</li>
+    <li>Bangkok, Tailandia</li>
+    <li>Estambul, Turquía</li>
+    <li>Dubái, Emiratos Árabes</li>
+    <li>Barcelona, España</li>
+    <li>New York, Estados Unidos</li>
+    <li>Buenos Aires, Argentina</li>
+    <li>Atenas, Grecia</li>
+    <li>Praga, República Checa</li>
+    <li>Ámsterdam, Países Bajos</li>
+    <li>Singapur</li>
+    <li>Seúl, Corea del Sur</li>
+  </ul>
+</div>
+<h2>Reserva tu Viaje</h2>
+<form id="formulario">
+  <label for="nombre">Nombre del cliente:</label><br>
+  <input type="text" id="nombre" name="nombre" required><br><br>
+
+  <label for="personas">¿Cuántas personas viajan?</label><br>
+  <input type="number" id="personas" name="personas" min="1" required><br><br>
+
+  <label for="destino">¿A dónde viajan?</label><br>
+  <select id="destino" name="destino" required>
+    <option value="">Selecciona un destino</option>
+    <option value="París">París, Francia</option>
+    <option value="Tokio">Tokio, Japón</option>
+    <option value="Roma">Roma, Italia</option>
+    <option value="Río de Janeiro">Río de Janeiro, Brasil</option>
+    <option value="El Cairo">El Cairo, Egipto</option>
+    <option value="Sídney">Sídney, Australia</option>
+    <option value="Ciudad del Cabo">Ciudad del Cabo, Sudáfrica</option>
+    <option value="Toronto">Toronto, Canadá</option>
+    <option value="Bangkok">Bangkok, Tailandia</option>
+    <option value="Estambul">Estambul, Turquía</option>
+    <option value="Dubái">Dubái, Emiratos Árabes</option>
+    <option value="Barcelona">Barcelona, España</option>
+    <option value="New York">New York, Estados Unidos</option>
+    <option value="Buenos Aires">Buenos Aires, Argentina</option>
+    <option value="Atenas">Atenas, Grecia</option>
+    <option value="Praga">Praga, República Checa</option>
+    <option value="Ámsterdam">Ámsterdam, Países Bajos</option>
+    <option value="Singapur">Singapur</option>
+    <option value="Seúl">Seúl, Corea del Sur</option>
+  </select><br><br>
+
+  <label for="fecha">¿Qué día viajan?</label><br>
+  <input type="date" id="fecha" name="fecha" required><br><br>
+
+  <label>
+    <input type="checkbox" id="seguro" name="seguro">
+    Incluir seguro opcional ($25,000 por persona)
+  </label><br><br>
+
+  <button type="button" onclick="calcular()">Calcular total</button>
+</form>
+
+<div id="resultado"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
