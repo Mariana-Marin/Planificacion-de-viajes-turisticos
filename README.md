@@ -24,7 +24,9 @@ PlanificadorViajes/
 │   └── PaqueteServlet.java           # Servlet con la lógica del sistema
 ├── web/
 │   ├── index.html                    # Formulario HTML del usuario
+│   ├── stars.js			# Efectos Visuales de Estrellas Cayendo en Js
 │   ├── style.css                     # Estilos CSS del formulario
+│   ├── validation.js	                # Validaciones del Formulario
 │   └── WEB-INF/
 │       └── web.xml                   # Archivo de configuración del servlet
 ├── PlanificadorViajes.iml            # Archivo de configuración del proyecto
